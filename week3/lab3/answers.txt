@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: similar response time than sort3 working on disarranged data sets (O(n2)). Better response time working on sorted data sets (Omega(n))
+
+sort2 uses: merge sort
+
+How do you know?: best response time (by far) working on disarranged data sets (random and reversed). Consistent with expected behavior: O(n log n) better than O(n2) in both other cases.
+
+sort3 uses: selection sort
+
+How do you know?: worst response time working on sorted data sets. Consistent with expected behavior: only one with Omega(n2)
